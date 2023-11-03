@@ -12,5 +12,5 @@ class Solution:
         """
         # storing the value of the next node inside the current node
         node.val = node.next.val
-        # now delinking the given node
+        # now linking the new node to its original next node
         node.next = node.next.next
